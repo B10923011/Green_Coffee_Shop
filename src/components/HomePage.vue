@@ -1,10 +1,10 @@
 <template>
     <div class="">
         <div class="section1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-            <img src="../assets/homepage_p1.jpg" alt="封面圖">
+            <img src="../assets/homepage_p1.jpg" alt="封面圖" >
             <div class="animation-overlay">
                 <div class="animation-bg" data-aos="flip-down"  data-aos-duration="2500">
-                    <div class="mb-5"> <h1>青食咖啡廳</h1></div>
+                    <div class="mb-3"> <h2>青食咖啡廳</h2></div>
                 
                     <div>
                         <p>
@@ -88,7 +88,7 @@ export default {
     border-radius: 15px;
 }
 .animation-bg p{
-    font-size: 20px;
+    font-size: 16px;
 
 }
 .section1 img {
@@ -101,9 +101,7 @@ export default {
     background-color: rgba(193, 192, 192, 0.5); 
 }
 
-.section2 .section2-image {
-  flex: 5;
-}
+
 
 .section2 img {
   width: 100%;
@@ -117,7 +115,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .section3 .section2-image {
@@ -136,6 +134,6 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 </style>
